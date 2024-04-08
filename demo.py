@@ -1,2 +1,2 @@
-from cnnClassifier.logging import logger
+from cnnClassifier import logger
 logger.info("Welcome to log")
