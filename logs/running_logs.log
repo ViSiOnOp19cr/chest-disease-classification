@@ -21,3 +21,52 @@ x==========x]
 [2024-04-15 16:10:02,645: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
 
 x==========x]
+[2024-04-15 16:11:58,043: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-15 16:11:58,060: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-15 16:11:58,067: INFO: common: created directory at: artifacts]
+[2024-04-15 16:11:58,080: INFO: common: created directory at: artifacts\training]
+[2024-04-15 16:24:58,449: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-04-15 16:24:58,453: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-15 16:24:58,457: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-15 16:24:58,458: INFO: common: created directory at: artifacts]
+[2024-04-15 16:24:58,458: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-04-15 16:24:58,458: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-15 16:25:22,902: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-15 16:25:23,586: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-04-15 16:25:23,587: INFO: main: *******************]
+[2024-04-15 16:25:23,587: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-04-15 16:25:23,591: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-15 16:25:23,595: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-15 16:25:23,596: INFO: common: created directory at: artifacts]
+[2024-04-15 16:25:23,597: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-04-15 16:25:24,498: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-04-15 16:25:26,322: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-04-15 16:25:26,323: INFO: main: *******************]
+[2024-04-15 16:25:26,323: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-04-15 16:25:26,328: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-15 16:25:26,330: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-15 16:25:26,331: INFO: common: created directory at: artifacts]
+[2024-04-15 16:25:26,332: INFO: common: created directory at: artifacts\training]
+[2024-04-15 16:30:18,329: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-04-15 16:30:18,329: INFO: main: *******************]
+[2024-04-15 16:30:18,330: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-04-15 16:30:18,335: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-15 16:30:18,340: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-15 16:30:18,341: INFO: common: created directory at: artifacts]
+[2024-04-15 16:31:04,679: INFO: common: json file saved at: scores.json]
+[2024-04-15 16:31:04,681: INFO: common: json file saved at: scores.json]
+[2024-04-15 16:31:04,681: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-04-15 16:34:46,937: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-15 16:34:46,945: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-15 16:34:46,948: INFO: common: created directory at: artifacts]
+[2024-04-15 16:35:39,096: INFO: common: json file saved at: scores.json]
+[2024-04-15 16:35:44,427: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-04-15 16:35:47,522: INFO: builder_impl: Assets written to: C:\Users\CHANDA~1\AppData\Local\Temp\tmp1us67ish\model\data\model\assets]
