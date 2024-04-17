@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/chandan%20cr/OneDrive/Desktop/machine_learning/machineLearning_project/chest-disease/chest-disease/mlruns/0/c230eb12e4cd45e483392c1d73c19a6e/artifacts
+end_time: 1713334164153
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c230eb12e4cd45e483392c1d73c19a6e
+run_name: gaudy-quail-623
+run_uuid: c230eb12e4cd45e483392c1d73c19a6e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713334147735
+status: 3
+tags: []
+user_id: chandan cr

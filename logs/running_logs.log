@@ -1,216 +1,55 @@
-[2024-04-08 10:56:35,906: INFO: demo: Welcome to log]
-[2024-04-08 15:49:45,311: INFO: demo: Welcome to log]
-[2024-04-08 15:52:04,159: INFO: demo: Welcome to log]
-[2024-04-15 16:08:38,455: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
-[2024-04-15 16:08:38,462: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-15 16:08:38,981: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-15 16:08:39,109: INFO: common: created directory at: artifacts]
-[2024-04-15 16:08:39,114: INFO: common: created directory at: artifacts/data_ingestion]
-[2024-04-15 16:08:39,119: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
-[2024-04-15 16:09:08,582: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
-[2024-04-15 16:09:09,579: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+[2024-04-17 11:33:04,018: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-04-17 11:33:04,021: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-17 11:33:04,023: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-17 11:33:04,024: INFO: common: created directory at: artifacts]
+[2024-04-17 11:33:04,026: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-04-17 11:33:04,027: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-17 11:33:25,674: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-17 11:33:26,864: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
 
 x==========x]
-[2024-04-15 16:09:09,581: INFO: main: *******************]
-[2024-04-15 16:09:09,584: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
-[2024-04-15 16:09:09,596: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-15 16:09:09,611: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-15 16:09:09,615: INFO: common: created directory at: artifacts]
-[2024-04-15 16:09:09,621: INFO: common: created directory at: artifacts/prepare_base_model]
-[2024-04-15 16:10:01,621: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
-[2024-04-15 16:10:02,645: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+[2024-04-17 11:34:05,664: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-04-17 11:34:05,668: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-17 11:34:05,670: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-17 11:34:05,671: INFO: common: created directory at: artifacts]
+[2024-04-17 11:34:05,673: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-04-17 11:34:05,673: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-17 11:34:24,898: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-17 11:34:25,790: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
 
 x==========x]
-[2024-04-15 16:11:58,043: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-15 16:11:58,060: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-15 16:11:58,067: INFO: common: created directory at: artifacts]
-[2024-04-15 16:11:58,080: INFO: common: created directory at: artifacts\training]
-[2024-04-15 16:24:58,449: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
-[2024-04-15 16:24:58,453: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-15 16:24:58,457: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-15 16:24:58,458: INFO: common: created directory at: artifacts]
-[2024-04-15 16:24:58,458: INFO: common: created directory at: artifacts/data_ingestion]
-[2024-04-15 16:24:58,458: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
-[2024-04-15 16:25:22,902: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
-[2024-04-15 16:25:23,586: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+[2024-04-17 11:34:25,790: INFO: main: *******************]
+[2024-04-17 11:34:25,791: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-04-17 11:34:25,794: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-17 11:34:25,799: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-17 11:34:25,803: INFO: common: created directory at: artifacts]
+[2024-04-17 11:34:25,804: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-04-17 11:34:26,724: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-04-17 11:34:27,101: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
 
 x==========x]
-[2024-04-15 16:25:23,587: INFO: main: *******************]
-[2024-04-15 16:25:23,587: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
-[2024-04-15 16:25:23,591: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-15 16:25:23,595: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-15 16:25:23,596: INFO: common: created directory at: artifacts]
-[2024-04-15 16:25:23,597: INFO: common: created directory at: artifacts/prepare_base_model]
-[2024-04-15 16:25:24,498: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
-[2024-04-15 16:25:26,322: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+[2024-04-17 11:34:27,102: INFO: main: *******************]
+[2024-04-17 11:34:27,102: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-04-17 11:34:27,106: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-17 11:34:27,111: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-17 11:34:27,115: INFO: common: created directory at: artifacts]
+[2024-04-17 11:34:27,118: INFO: common: created directory at: artifacts\training]
+[2024-04-17 11:38:14,412: INFO: main: >>>>>> stage Training completed <<<<<<
 
 x==========x]
-[2024-04-15 16:25:26,323: INFO: main: *******************]
-[2024-04-15 16:25:26,323: INFO: main: >>>>>> stage Training started <<<<<<]
-[2024-04-15 16:25:26,328: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-15 16:25:26,330: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-15 16:25:26,331: INFO: common: created directory at: artifacts]
-[2024-04-15 16:25:26,332: INFO: common: created directory at: artifacts\training]
-[2024-04-15 16:30:18,329: INFO: main: >>>>>> stage Training completed <<<<<<
-
-x==========x]
-[2024-04-15 16:30:18,329: INFO: main: *******************]
-[2024-04-15 16:30:18,330: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
-[2024-04-15 16:30:18,335: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-15 16:30:18,340: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-15 16:30:18,341: INFO: common: created directory at: artifacts]
-[2024-04-15 16:31:04,679: INFO: common: json file saved at: scores.json]
-[2024-04-15 16:31:04,681: INFO: common: json file saved at: scores.json]
-[2024-04-15 16:31:04,681: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
-
-x==========x]
-[2024-04-15 16:34:46,937: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-15 16:34:46,945: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-15 16:34:46,948: INFO: common: created directory at: artifacts]
-[2024-04-15 16:35:39,096: INFO: common: json file saved at: scores.json]
-[2024-04-15 16:35:44,427: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
-[2024-04-15 16:35:47,522: INFO: builder_impl: Assets written to: C:\Users\CHANDA~1\AppData\Local\Temp\tmp1us67ish\model\data\model\assets]
-[2024-04-17 10:33:13,970: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
-[2024-04-17 10:33:14,013: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-17 10:33:14,025: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-17 10:33:14,026: INFO: common: created directory at: artifacts]
-[2024-04-17 10:33:14,026: INFO: common: created directory at: artifacts/data_ingestion]
-[2024-04-17 10:33:14,027: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
-[2024-04-17 10:33:45,637: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
-[2024-04-17 10:33:46,538: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
-
-x==========x]
-[2024-04-17 10:33:46,538: INFO: main: *******************]
-[2024-04-17 10:33:46,538: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
-[2024-04-17 10:33:46,542: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-17 10:33:46,547: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-17 10:33:46,549: INFO: common: created directory at: artifacts]
-[2024-04-17 10:33:46,550: INFO: common: created directory at: artifacts/prepare_base_model]
-[2024-04-17 10:33:47,486: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
-[2024-04-17 10:33:54,387: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
-
-x==========x]
-[2024-04-17 10:33:54,390: INFO: main: *******************]
-[2024-04-17 10:33:54,391: INFO: main: >>>>>> stage Training started <<<<<<]
-[2024-04-17 10:33:54,411: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-17 10:33:54,427: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-17 10:33:54,434: INFO: common: created directory at: artifacts]
-[2024-04-17 10:33:54,438: INFO: common: created directory at: artifacts\training]
-[2024-04-17 10:37:03,478: INFO: main: >>>>>> stage Training completed <<<<<<
-
-x==========x]
-[2024-04-17 10:37:03,480: INFO: main: *******************]
-[2024-04-17 10:37:03,480: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
-[2024-04-17 10:37:03,488: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-17 10:37:03,492: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-17 10:37:03,494: INFO: common: created directory at: artifacts]
-[2024-04-17 10:37:34,107: INFO: common: json file saved at: scores.json]
-[2024-04-17 10:37:34,109: INFO: common: json file saved at: scores.json]
-[2024-04-17 10:37:34,110: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
-
-x==========x]
-[2024-04-17 10:44:28,995: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
-[2024-04-17 10:44:29,000: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-17 10:44:29,002: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-17 10:44:29,002: INFO: common: created directory at: artifacts]
-[2024-04-17 10:44:29,002: INFO: common: created directory at: artifacts/data_ingestion]
-[2024-04-17 10:44:29,004: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
-[2024-04-17 10:44:40,109: ERROR: main: HTTPSConnectionPool(host='drive.google.com', port=443): Max retries exceeded with url: /uc?/export=download&id=1z0mreUtRmR-P-magILsDR3T7M6IkGXtY (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001AD6E4D4C10>: Failed to resolve 'drive.google.com' ([Errno 11001] getaddrinfo failed)"))]
-Traceback (most recent call last):
-  File "C:\Users\chandan cr\anaconda3\envs\chest\lib\site-packages\urllib3\connection.py", line 198, in _new_conn
-    sock = connection.create_connection(
-  File "C:\Users\chandan cr\anaconda3\envs\chest\lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
-    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
-  File "C:\Users\chandan cr\anaconda3\envs\chest\lib\socket.py", line 918, in getaddrinfo
-    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
-socket.gaierror: [Errno 11001] getaddrinfo failed
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "C:\Users\chandan cr\anaconda3\envs\chest\lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
-    response = self._make_request(
-  File "C:\Users\chandan cr\anaconda3\envs\chest\lib\site-packages\urllib3\connectionpool.py", line 491, in _make_request
-    raise new_e
-  File "C:\Users\chandan cr\anaconda3\envs\chest\lib\site-packages\urllib3\connectionpool.py", line 467, in _make_request
-    self._validate_conn(conn)
-  File "C:\Users\chandan cr\anaconda3\envs\chest\lib\site-packages\urllib3\connectionpool.py", line 1099, in _validate_conn
-    conn.connect()
-  File "C:\Users\chandan cr\anaconda3\envs\chest\lib\site-packages\urllib3\connection.py", line 616, in connect
-    self.sock = sock = self._new_conn()
-  File "C:\Users\chandan cr\anaconda3\envs\chest\lib\site-packages\urllib3\connection.py", line 205, in _new_conn
-    raise NameResolutionError(self.host, self, e) from e
-urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x000001AD6E4D4C10>: Failed to resolve 'drive.google.com' ([Errno 11001] getaddrinfo failed)
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "C:\Users\chandan cr\anaconda3\envs\chest\lib\site-packages\requests\adapters.py", line 486, in send
-    resp = conn.urlopen(
-  File "C:\Users\chandan cr\anaconda3\envs\chest\lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
-    retries = retries.increment(
-  File "C:\Users\chandan cr\anaconda3\envs\chest\lib\site-packages\urllib3\util\retry.py", line 515, in increment
-    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
-urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='drive.google.com', port=443): Max retries exceeded with url: /uc?/export=download&id=1z0mreUtRmR-P-magILsDR3T7M6IkGXtY (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001AD6E4D4C10>: Failed to resolve 'drive.google.com' ([Errno 11001] getaddrinfo failed)"))
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "main.py", line 14, in <module>
-    obj.main()
-  File "c:\users\chandan cr\onedrive\desktop\machine_learning\machinelearning_project\end to end chest diesease detection\chest-disease-classification\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 16, in main
-    data_ingestion.download_file()
-  File "c:\users\chandan cr\onedrive\desktop\machine_learning\machinelearning_project\end to end chest diesease detection\chest-disease-classification\src\cnnClassifier\components\data_ingestion.py", line 35, in download_file
-    raise e
-  File "c:\users\chandan cr\onedrive\desktop\machine_learning\machinelearning_project\end to end chest diesease detection\chest-disease-classification\src\cnnClassifier\components\data_ingestion.py", line 30, in download_file
-    gdown.download(prefix+file_id,zip_download_dir)
-  File "C:\Users\chandan cr\anaconda3\envs\chest\lib\site-packages\gdown\download.py", line 188, in download
-    res = sess.get(url, stream=True, verify=verify)
-  File "C:\Users\chandan cr\anaconda3\envs\chest\lib\site-packages\requests\sessions.py", line 602, in get
-    return self.request("GET", url, **kwargs)
-  File "C:\Users\chandan cr\anaconda3\envs\chest\lib\site-packages\requests\sessions.py", line 589, in request
-    resp = self.send(prep, **send_kwargs)
-  File "C:\Users\chandan cr\anaconda3\envs\chest\lib\site-packages\requests\sessions.py", line 703, in send
-    r = adapter.send(request, **kwargs)
-  File "C:\Users\chandan cr\anaconda3\envs\chest\lib\site-packages\requests\adapters.py", line 519, in send
-    raise ConnectionError(e, request=request)
-requests.exceptions.ConnectionError: HTTPSConnectionPool(host='drive.google.com', port=443): Max retries exceeded with url: /uc?/export=download&id=1z0mreUtRmR-P-magILsDR3T7M6IkGXtY (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001AD6E4D4C10>: Failed to resolve 'drive.google.com' ([Errno 11001] getaddrinfo failed)"))
-[2024-04-17 10:46:41,115: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
-[2024-04-17 10:46:41,119: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-17 10:46:41,121: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-17 10:46:41,123: INFO: common: created directory at: artifacts]
-[2024-04-17 10:46:41,124: INFO: common: created directory at: artifacts/data_ingestion]
-[2024-04-17 10:46:41,124: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
-[2024-04-17 10:47:31,302: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
-[2024-04-17 10:47:32,034: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
-
-x==========x]
-[2024-04-17 10:47:32,035: INFO: main: *******************]
-[2024-04-17 10:47:32,035: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
-[2024-04-17 10:47:32,040: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-17 10:47:32,044: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-17 10:47:32,045: INFO: common: created directory at: artifacts]
-[2024-04-17 10:47:32,046: INFO: common: created directory at: artifacts/prepare_base_model]
-[2024-04-17 10:47:33,070: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
-[2024-04-17 10:47:36,086: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
-
-x==========x]
-[2024-04-17 10:47:36,087: INFO: main: *******************]
-[2024-04-17 10:47:36,088: INFO: main: >>>>>> stage Training started <<<<<<]
-[2024-04-17 10:47:36,094: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-17 10:47:36,099: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-17 10:47:36,100: INFO: common: created directory at: artifacts]
-[2024-04-17 10:47:36,102: INFO: common: created directory at: artifacts\training]
-[2024-04-17 10:50:49,018: INFO: main: >>>>>> stage Training completed <<<<<<
-
-x==========x]
-[2024-04-17 10:50:49,025: INFO: main: *******************]
-[2024-04-17 10:50:49,028: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
-[2024-04-17 10:50:49,158: INFO: common: yaml file: config\config.yaml loaded successfully]
-[2024-04-17 10:50:49,239: INFO: common: yaml file: params.yaml loaded successfully]
-[2024-04-17 10:50:49,248: INFO: common: created directory at: artifacts]
-[2024-04-17 10:51:35,946: INFO: common: json file saved at: scores.json]
-[2024-04-17 10:51:35,948: INFO: common: json file saved at: scores.json]
-[2024-04-17 10:51:35,949: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+[2024-04-17 11:38:14,413: INFO: main: *******************]
+[2024-04-17 11:38:14,413: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-04-17 11:38:14,416: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-17 11:38:14,418: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-04-17 11:38:14,419: INFO: common: created directory at: artifacts]
+[2024-04-17 11:39:06,756: INFO: common: json file saved at: scores.json]
+[2024-04-17 11:39:06,777: INFO: common: json file saved at: scores.json]
+[2024-04-17 11:39:09,819: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-04-17 11:39:11,477: INFO: builder_impl: Assets written to: C:\Users\CHANDA~1\AppData\Local\Temp\tmpdeo4y6vr\model\data\model\assets]
+[2024-04-17 11:39:23,955: INFO: dir_util: creating C:\Users\chandan cr\OneDrive\Desktop\machine_learning\machineLearning_project\chest-disease\chest-disease\mlruns\0\c230eb12e4cd45e483392c1d73c19a6e\artifacts\model\data]
+[2024-04-17 11:39:23,959: INFO: dir_util: creating C:\Users\chandan cr\OneDrive\Desktop\machine_learning\machineLearning_project\chest-disease\chest-disease\mlruns\0\c230eb12e4cd45e483392c1d73c19a6e\artifacts\model\data\model]
+[2024-04-17 11:39:23,961: INFO: dir_util: creating C:\Users\chandan cr\OneDrive\Desktop\machine_learning\machineLearning_project\chest-disease\chest-disease\mlruns\0\c230eb12e4cd45e483392c1d73c19a6e\artifacts\model\data\model\assets]
+[2024-04-17 11:39:23,974: INFO: dir_util: creating C:\Users\chandan cr\OneDrive\Desktop\machine_learning\machineLearning_project\chest-disease\chest-disease\mlruns\0\c230eb12e4cd45e483392c1d73c19a6e\artifacts\model\data\model\variables]
+[2024-04-17 11:39:24,155: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
